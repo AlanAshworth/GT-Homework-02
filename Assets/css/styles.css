@@ -1,5 +1,6 @@
 html {
-  background: url(../Images/cement_plaster_white.jpg) no-repeat center center fixed;
+  background: url(../Images/cement_plaster_white.jpg) no-repeat center center
+    fixed;
   background-size: cover;
 }
 
@@ -25,7 +26,6 @@ header {
   margin-left: 3rem;
   background-color: #59aaa5;
   color: #ffffff;
-
 }
 
 .navbar-nav {
@@ -36,31 +36,15 @@ header {
   padding: 0 1rem;
 }
 
-mt-auto, .my-auto {
-  margin-top: auto!important;
+body {
+  /* margin-top: 40px; */
+  background: url(../Images/cement_plaster_white.jpg) no-repeat center center
+    fixed;
+  background-size: cover;
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.pb-3, .py-3 {
-  padding-bottom: 1rem!important;
-}
-.pt-3, .py-3 {
-  padding-top: 1rem!important;
-}
-
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  background-color: rgb(102, 102, 102);
-}
-
-/* .footer-copyright {
-  color: #ffffff;
-} */
-
-footer{
+footer {
   margin-top: 20px;
   border-top: 5px;
   border-color: green;
@@ -69,15 +53,15 @@ footer{
   color: #ffffff;
 }
 
-body {
-  /* margin-top: 40px; */
-  background: url(../Images/cement_plaster_white.jpg) no-repeat center center fixed;
-  background-size: cover;
-  color: rgba(0, 0, 0, 0.5);
-}
 .card {
   align-content: center;
   margin: 15px;
+  max-width: 500px;
+}
+
+.btn-primary {
+  background-color: #59aaa5;
+  border-color: #59aaa5;
 }
 
 .btn-primary:hover {
@@ -90,12 +74,22 @@ body {
   text-decoration: none;
 }
 
-.btn-primary {
-  background-color: #59aaa5;
-  border-color: #59aaa5;
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(102, 102, 102);
 }
 
 .float-left {
   float: left;
   margin-right: 25px;
+}
+
+.my-portfolio {
+  margin: 1rem 1rem;
+}
+.my-col {
+  margin: 10px;
 }
